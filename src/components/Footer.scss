@@ -1,0 +1,17 @@
+.footer {
+  background-color: #ddd;
+  margin-top: 2rem;
+
+  .footer-container {
+    max-width: 75rem;
+    margin: 0 auto;
+    font-size: 0.75rem;
+    padding: 1rem 0;
+  }
+
+  @media (max-width: 52rem) {
+    .footer-container {
+      padding: 1rem;
+    }
+  }
+}

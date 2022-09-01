@@ -1,0 +1,31 @@
+.form-section {
+  max-width: 50rem;
+  margin: 0 auto;
+  padding-top: 5rem;
+  gap: 2rem;
+
+  >div {
+    flex: 1;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  p {
+    margin-top: 1rem;
+    font-size: 0.8rem;
+  }
+
+  .form-info {
+    padding-top: 2rem;
+  }
+
+}
+
+@media (max-width: 48rem) {
+  .form-section {
+    flex-direction: column;
+    padding: 2rem;
+  }
+}
