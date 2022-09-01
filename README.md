@@ -13,3 +13,15 @@ npm run start
 yarn install
 yarn start
 ```
+## To run the application
+
+npm install
+
+-development mode
+
+npm run dev
+
+-production mode
+
+npm run build
+npm run start 
